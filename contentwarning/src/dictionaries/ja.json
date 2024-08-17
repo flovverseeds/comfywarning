@@ -1,13 +1,11 @@
 {
   "header":{
     "home": "ホーム",
-    "monster":"モンスター"
+    "monster":"モンスター",
+    "language":"English"
   },
   "homepage":{
-    "greetings": "日本 最高最高 努力未来  a beautiful star!!",
+    "greetings": "やっほー、くらみ みどりやよぉ !! 旧セカイの謎を解明する為に力を貸して欲しい。旧セカイに住むモンスターの映像を収めたい !! 宜しければ力を貸して欲しい。（配信にて、一緒にやろ!!!）",
     "memories" : "memories"
-  
-  }
-
+  } 
 }
-  

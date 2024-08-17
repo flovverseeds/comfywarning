@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
-
 const Carousel = ({
   data,
 }: {
@@ -12,39 +11,33 @@ const Carousel = ({
   const [currentImg, setCurrentImg] = useState(0)
   const [carouselWidth, setCarouselWidth] = useState(0)
   const carouselRef = useRef<HTMLDivElement>(null)
-
-  // Function to update carousel width
+  //Function to update carousel width
   const updateCarouselSize = () => {
     if (carouselRef.current) {
       const width = carouselRef.current.offsetWidth
       setCarouselWidth(width)
     }
   }
-  // Effect to update carousel size on initial render and window resize
+  //Effect to update carousel size on initial render and window resize
   useEffect(() => {
     updateCarouselSize() // Initial size update
-
     window.addEventListener('resize', updateCarouselSize)
     return () => {
       window.removeEventListener('resize', updateCarouselSize)
     }
   }, [])
-
   const handlePrevious = () => {
     setCurrentImg((prev) => Math.max(prev - 1, 0))
   }
-
   const handleNext = () => {
     setCurrentImg((prev) => Math.min(prev + 1, data.length - 1))
   }
-
   return (
     <div>
       {/* Carousel container */}
       <div
-        className="aspect-video relative w-40 sm:w-[200px] md:w-[720px] lg:w-[1000px] xl:w-[1300px] overflow-clip rounded-md"
-        ref={carouselRef}
-      >
+        className="aspect-video relative w-[250px] sm:w-[450px] md:w-[720px] lg:w-[1000px] xl:w-[1300px] overflow-clip rounded-md"
+        ref={carouselRef}>
         {/* Image container */}
         <div
           style={{
@@ -65,26 +58,22 @@ const Carousel = ({
           ))}
         </div>
       </div>
-
       {/* Navigation buttons */}
-      <div className="mt-3 flex justify-center">
+      <div className="mt-3 flex justify-center nostalgic-text gap-4">
         <button
           disabled={currentImg === 0}
           onClick={handlePrevious}
-          className={`border border-minty text-minty px-4 py-2 font-bold ${currentImg === 0 ? 'opacity-50' : ''}`}
-        >
-          {'<'}
+          className={`border  border-minty text-minty px-4 py-2 font-extrabold  ${currentImg === 0 ? 'opacity-50' : ''}`}
+        >{'<'}
         </button>
         <button
           disabled={currentImg === data.length - 1}
           onClick={handleNext}
-          className={`border border-minty text-minty px-4 py-2 font-bold ${currentImg === data.length - 1 ? 'opacity-50' : ''}`}
-        >
-          {'>'}
+          className={`border  border-minty text-minty px-4 py-2 font-extrabold  ${currentImg === data.length - 1 ? 'opacity-50' : ''}`}
+        >{'>'}
         </button>
       </div>
     </div>
   )
 }
-
 export default Carousel

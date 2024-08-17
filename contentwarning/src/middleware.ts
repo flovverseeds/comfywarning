@@ -16,11 +16,10 @@ function getLocale(request: NextRequest): string | undefined {
   
   // Adjusted matchLocale call
   const locale = matchLocale(languages, localesArray);
-  
+
   // Ensure locale is a string
   return typeof locale === 'string' ? locale : undefined;
 }
-
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 

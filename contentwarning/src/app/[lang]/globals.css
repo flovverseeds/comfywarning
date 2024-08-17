@@ -7,7 +7,7 @@
   font-family: 'ノスタルドット（M+）';
   font-style: normal;
   font-weight: 100;
-  src: url(https://midorifonts2.netlify.app/Nosutaru-dotMPlusH-10-Regular.ttf) format('truetype');
+  src: url("/font/Nosutaru-dotMPlusH-10-Regular.ttf") format('truetype');
 }
 
 /* imanity */
@@ -15,7 +15,7 @@
   font-family: 'Imanity';
   font-style: normal;
   font-weight: 100;
-  src: url(https://midorifonts2.netlify.app/Imanity_v2.000.otf) format('opentype');
+  src: url("/font/Imanity_v2.000.otf") format('opentype');
 }
 
 /* bitfont */
@@ -23,7 +23,7 @@
   font-family: 'じゃっきーふぉんと';
   font-style: normal;
   font-weight: 100;
-  src: url(https://midorifonts2.netlify.app/jackeyfont.ttf) format('truetype');
+  src: url("/font/jackeyfont.ttf") format('truetype');
 }
 
 /* らこフォンんと */
@@ -31,20 +31,21 @@
   font-family: 'Markerbysue';
   font-style: normal;
   font-weight: 100;
-  src: url(https://midorifonts2.netlify.app/Markerbysue-Regular.ttf) format('truetype');
+  src: url("/font/Markerbysue-Regular.ttf") format('truetype');
 }
-
+/*public/font/Markerbysue-Regular.ttf
+https://midorifonts2.netlify.app/Markerbysue-Regular.ttf
+*/
  /* 数式フォント  数式フォントver1.5.ttf*/ 
  @font-face {
   font-family: '数式フォント'; 
   font-style: normal; 
   font-weight: 100; 
-  src: url(https://midorifonts2.netlify.app/数式フォントver1.5.ttf) format('truetype');  
-  }
-
+  src: url("/font/数式フォントver1.5.ttf") format('truetype');  
+}
 
 .nostalgic-text {
-  font-family: 'ノスタルドット（M+）';
+  font-family: 'ノスタルドット（M+）','Markerbysue';
 }
 
 .imanity-text {
@@ -60,5 +61,6 @@
 }
 
 .suushiki-text {
-  font-family: '数式フォント';
+  font-family: '数式フォント','Imanity';
+  font-display: swap;
 }

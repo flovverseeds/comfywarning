@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "contentwarning": "file:",
     "locale-matcher": "^2.0.0",
     "negotiator": "^0.6.3",
@@ -16,7 +18,8 @@
     "next.js": "^1.0.3",
     "node.js": "^0.0.1-security",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",
