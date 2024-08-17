@@ -51,14 +51,14 @@ export default async function Home({
     <Carousel data={DATA} />
 </section>
 
- <section>
+ <section className=" hidden md:block">
 <div className="w-full flex justify-end hover:animate-bounce ">
-        <div className="w-[400px] h-[400px]">
+  <div className="w-[400px] h-[400px] ">
           <a href="link here">
             {/* Image from howToSupport */}
             <img src={howToSupport.image} alt="Support Image" className="object-cover h-auto"/>
           </a>
-        </div>
+  </div>
 </div>
 </section>
 <Footer></Footer>

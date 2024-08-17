@@ -36,7 +36,7 @@ const Carousel = ({
     <div>
       {/* Carousel container */}
       <div
-        className="aspect-video relative w-[250px] sm:w-[450px] md:w-[720px] lg:w-[1000px] xl:w-[1300px] overflow-clip rounded-md"
+        className="aspect-video relative w-[350px] sm:w-[450px] md:w-[720px] lg:w-[1000px] xl:w-[1300px] overflow-clip rounded-md"
         ref={carouselRef}>
         {/* Image container */}
         <div
