@@ -1,11 +1,17 @@
 {
-  "header":{
-    "home": "ホーム",
-    "monster":"モンスター",
-    "language":"English"
+  "header": {
+    "navi": ["ホーム", "モンスター"],
+    "language": "English"
   },
   "homepage":{
     "greetings": "やっほー、くらみ みどりやよぉ !! 旧セカイの謎を解明する為に力を貸して欲しい。旧セカイに住むモンスターの映像を収めたい !! 宜しければ力を貸して欲しい。（配信にて、一緒にやろ!!!）",
     "memories" : "memories"
-  } 
+  },
+  "support":
+  {
+      "sup0": "応援してみた？？！！",   
+      "sup1": "twitchのフォロー !!",
+      "sup2": "一緒にお化けを探そう！！！",
+      "sup3": "お恵み (任意)"
+  }
 }

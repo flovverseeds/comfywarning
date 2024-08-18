@@ -25,12 +25,19 @@ export function middleware(request: NextRequest) {
       !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
+  const locale = getLocale(request) || i18n.defaultLocale;
+
+  // Store locale in the request headers
+  request.headers.set('x-locale', locale);
+
   if (pathnameIsMissingLocale) {
-    const locale = getLocale(request) || i18n.defaultLocale;
     return NextResponse.redirect(
       new URL(`/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`, request.url)
     );
   }
+
+  // Return the response so that the locale is applied and used by other parts of the app
+  return NextResponse.next();
 }
 
 export const config = {

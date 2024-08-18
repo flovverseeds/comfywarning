@@ -30,7 +30,6 @@ export default async function Home({
     <>
   <meta name="game" content="contentWarning"></meta>
   <main className="w-auto justify-center flex-row space-y-10 nostalgic-text">  
-  <HeaderNAvi navi={dictionary["header"].monster} language= {dictionary["header"].language}></HeaderNAvi>
   <section className="mx-7 ce">
     <div className="w-full h-fit border-2 border-minty bg-lefu">
       <div className="flex  flex-col sm:flex-row items-center">
@@ -54,14 +53,30 @@ export default async function Home({
 
 <section>
     <div className="w-full grid justify-center">
-
     </div>
-
 </section>
 
- <section className="hidden md:block ">
+<section className="w-full h-[500px]">
+<div className="grid grid-flow-col-1 justify-center items-center gap-y-10 text-lg md:text-4xl lg:text-[60px]">
+
+<p className="h-auto w-auto bg-noir  text-minty  cursor-pointer text-center font-extrabold animate-pulse text-[30px] md:text-[50px] lg:text-[70px] ">
+{dictionary["support"].sup0}
+</p>
+
+<a  href="https://www.twitch.tv/qra3" className="h-auto w-auto bg-lefu border border-minty text-minty   hover:bg-minty hover:text-lefu p-5 cursor-pointer">
+{dictionary["support"].sup1}
+</a>
+<a href="https://steamcommunity.com/id/crmy_midori/" className="h-auto  w-auto bg-lefu border border-minty text-minty  hover:bg-minty hover:text-lefu p-5 cursor-pointer">
+{dictionary["support"].sup2}
+</a>
+<a href="https://streamlabs.com/qra3/tip" className="h-auto w-auto bg-lefu border border-minty text-minty   hover:bg-minty hover:text-lefu p-5 cursor-pointer">
+ {dictionary["support"].sup3}
+</a>
+</div>
+</section>
+<section className="hidden md:block ">
 <div className="relative w-full flex justify-end">
-<div className="absolute bottom-0 right-0 w-[400px] h-[400px] animate-bounce">
+<div className="absolute bottom-0 right-0 m md:w-[100px] md:h-[100px]  lg:w-[200px] lg:h-[200px] xl:w-[300px] xl:h-[300px] 2xl:w-[400px] 2xl:h-[400px] animate-bounce">
   <Image
       src={howToSupport.image}
       alt="Content Warning"
@@ -73,27 +88,7 @@ export default async function Home({
   </div>
 </div>
 </section>
-
-<div className="mb-50px">
-</div>
 </main>
    </>
   );
 }
-//
-// first attemp not bad
-/*
-<div className="w-full h-[200px] border-2 border-minty bg-lefu ">
-<div className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px]  border-2 m-2 border-minty bg-iconshiro bg-center bg-cover hover:bg-iconkuro"></div>
-<div className="w-auto h-auto mx-2 border-2  border-minty bg-lefu ">
-<p className="text-shiro text-sm p-2">
-{dictionary["homepage"].greetings}
-</p>
-</div>
-</div>
-<p className="nostalgic-text">こんにちは.漢字は対応してる vvvv</p>
-<p className="imanity-text">This text uses the Imanity font.</p>
-<p className="bitfont-text">This text uses the じゃっきーふぉんと font.</p>
-<p className="markerbysue-text">This text uses the Markerbysue font.</p>
-<p className="suushiki-text">This text uses the suushiki font.</p>
-*/

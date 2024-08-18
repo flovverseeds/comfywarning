@@ -1,11 +1,16 @@
 {
-  "header":{
-    "home": "home",
-    "monster":"monsters",
-    "language":"日本語"
-  },
+  "header": {
+  "navi": ["home", "monsters"],
+  "language": "日本語"
+},
   "homepage":{
     "greetings": "Hi my name Is kurami midori I built this site to collect the evidence of the Old World it might take a while to collect them all but I will do my best I will be often stream on twitch!! you can join me if you want!! :)",
     "memories" : "memories"
+  },
+  "support":{
+      "sup0": "HOW TO SUPPORT? > <",   
+      "sup1": "follow me on twitch",
+      "sup2": "let's find monster together",
+      "sup3": "donation (optional)"
   }
 }
