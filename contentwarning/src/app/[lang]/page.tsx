@@ -6,6 +6,7 @@ import 'p/app/[lang]/globals.css';
 import HeaderNAvi from "p/components/header-navi";
 import { headers } from "next/headers";
 import Footer from "p/components/footer";
+import Image from "next/image";
 export default async function Home({
   params: { lang },
 }: {
@@ -28,7 +29,7 @@ export default async function Home({
   return (
     <>
   <meta name="game" content="contentWarning"></meta>
-  <main className="w-auto justify-center flex-row space-y-10">  
+  <main className="w-auto justify-center flex-row space-y-10 nostalgic-text">  
   <HeaderNAvi navi={dictionary["header"].monster} language= {dictionary["header"].language}></HeaderNAvi>
   <section className="mx-7 ce">
     <div className="w-full h-fit border-2 border-minty bg-lefu">
@@ -37,36 +38,48 @@ export default async function Home({
         <div className="w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px] border-2 m-2 border-minty bg-iconshiro bg-center bg-cover hover:bg-iconkuro flex-shrink-0"></div>
          {/* Text Container */}
         <div className=" mx-2 border-2 border-minty bg-lefu max-w-fit my-2">
-          <p className="text-shiro nostalgic-text text-sm p-2">
+          <p className="text-shiro nostalgic-text text-lg md:text-4xl p-2">
             {dictionary["homepage"].greetings}
           </p>
         </div>
       </div>
     </div>
   </section>
-  <section className="flex flex-col items-center text-center">
+  <section className="flex flex-col items-center text-center ">
       <p className="text-minty font-bold text-[20px] md:text-[40px]  p-2 m-2">
             {dictionary["homepage"].memories}
       </p>
-    <Carousel data={DATA} />
+    <Carousel  data={DATA} />
 </section>
 
- <section className=" hidden md:block">
-<div className="w-full flex justify-end hover:animate-bounce ">
-  <div className="w-[400px] h-[400px] ">
-          <a href="link here">
-            {/* Image from howToSupport */}
-            <img src={howToSupport.image} alt="Support Image" className="object-cover h-auto"/>
-          </a>
+<section>
+    <div className="w-full grid justify-center">
+
+    </div>
+
+</section>
+
+ <section className="hidden md:block ">
+<div className="relative w-full flex justify-end">
+<div className="absolute bottom-0 right-0 w-[400px] h-[400px] animate-bounce">
+  <Image
+      src={howToSupport.image}
+      alt="Content Warning"
+      fill
+      className="object-cover"
+      sizes="(max-width: 400px) 100vw, 200px" 
+      priority
+    />
   </div>
 </div>
 </section>
-<Footer></Footer>
+
+<div className="mb-50px">
+</div>
 </main>
    </>
   );
 }
-
 //
 // first attemp not bad
 /*

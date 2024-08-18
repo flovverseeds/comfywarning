@@ -4,9 +4,9 @@ import { cva , VariantProps } from 'class-variance-authority'
 
 const Footer =() =>{
 return (
-  <section className='fixed bottom-0  mt-auto w-full  md:opacity-60 hover:opacity-100'>
+  <section className='mt-auto w-full md:opacity-60 hover:opacity-100'>
   <div className="h-[150px] md:h-[60px] w-full bg-minty  justify-center items-center flex">
-    <div className="grid  grid-cols-3 md:grid-cols-6 gap-5 text-minty">
+    <div className="grid grid-cols-3 md:grid-cols-6 gap-5 text-minty">
 
     <a href='https://www.twitch.tv/qra3' className='w-10 h-10 hover:animate-ping'>
   <svg fill="#373A40" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">

@@ -53,6 +53,14 @@ const Carousel = ({
                 alt={`carousel-image-${i}`}
                 fill
                 src={v.image || 'https://random.imagecdn.app/500/500'}
+                sizes="
+                (max-width: 350px) 100vw, 
+                (max-width: 450px) 100vw, 
+                (max-width: 720px) 100vw, 
+                (max-width: 1000px) 100vw, 
+                (min-width: 1300px) 100vw
+              "
+              priority
               />
             </div>
           ))}
