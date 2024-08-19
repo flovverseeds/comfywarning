@@ -12,5 +12,22 @@
       "sup1": "follow me on twitch",
       "sup2": "let's find monster together",
       "sup3": "donation (optional)"
+  },
+  "dangerlever":
+  {
+    "zero": "☆☆☆☆☆",
+    "one": "★☆☆☆☆" ,
+    "two": "★★☆☆☆" ,
+    "three": "★★★☆☆" ,
+    "four": "★★★★☆" ,
+    "five": "★★★★★"  
+  },
+  "monster":
+  {
+    "monster01":
+    {
+      "name": "Escargokun",
+      "define": "Escargokun is a snailman who loves to hug people !! he is born from SnailQueen !! he is slow and goofy 【Stunable】"
+    }
   }
 }

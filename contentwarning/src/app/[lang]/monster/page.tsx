@@ -1,5 +1,6 @@
 import { getDictionary } from "p/get-dictionary";
 import { Locale } from "p/i18-config";
+import Monster from "p/components/monster";
 export default async function Home({
   params: { lang },
 }: {
@@ -17,8 +18,10 @@ export default async function Home({
       </p>
       </div>
      </section>
-   
-   </main>
+  <section className="w-full flex grid-cols-3 justify-center mx-auto gap-10 mt-10">
+    <Monster icon="bg-monster01Icon" monsterName={dictionary["monster"].monster01.name} define={dictionary["monster"].monster01.define}/>
+  </section>
+  </main>
     </>
   );
 }

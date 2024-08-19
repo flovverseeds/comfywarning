@@ -17,14 +17,13 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
   params: { lang: Locale };
-}) 
+})
 {
-
   const dictionary = await getDictionary(lang);
-
   return (
     <html lang="en" className="relative imanity-text bg-noir">
       <body className="markerbysue-text">
+      <div id="modal-root"></div>
        <HeaderNAvi navi={[dictionary["header"].navi[0], dictionary["header"].navi[1]]}  language= {dictionary["header"].language}></HeaderNAvi>
         {children}   
         <Footer></Footer>

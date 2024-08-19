@@ -64,3 +64,17 @@ https://midorifonts2.netlify.app/Markerbysue-Regular.ttf
   font-family: '数式フォント','Imanity';
   font-display: swap;
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50; /* Ensure it is above other content */
+}
+
