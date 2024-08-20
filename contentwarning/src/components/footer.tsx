@@ -4,7 +4,7 @@ import { cva , VariantProps } from 'class-variance-authority'
 
 const Footer =() =>{
 return (
-  <section className='mt-auto w-full md:opacity-60 hover:opacity-100'>
+  <section className='mt-auto w-full md:opacity-60 hover:opacity-100 fixed bottom-0'>
   <div className="h-[150px] md:h-[60px] w-full bg-minty  justify-center items-center flex">
     <div className="grid grid-cols-3 md:grid-cols-6 gap-5 text-minty">
 
@@ -58,8 +58,5 @@ return (
 <p className='imanity-text text-noir bg-minty w-full flex justify-center text-[12px]'>2024 mifuworks crmy flovver</p>
 </section>
 )}
+
 export default Footer
-
-
-//twitch //twitter  //bilibili //steam //tiktok  //youtube
-// 2024 mifuworks made for fun 

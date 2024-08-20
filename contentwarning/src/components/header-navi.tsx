@@ -28,7 +28,7 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
     const pathWithoutLocale = path.replace(/^\/(en|ja)(\/|$)/, '/'); // Remove current locale from path
     return `/${newLocale}${pathWithoutLocale}`; // Add the new locale
   }
-
+  
   function getNaviText(url: string): string {
     const path = new URL(url).pathname;
     if (path === '/en' || path === '/ja') {
@@ -38,7 +38,6 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
     }
     return navi[0];
   }
-
 
   function naviLink(): string {
     const path = window.location.pathname;
@@ -63,6 +62,7 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
   if (!currentUrl) {
     return null; // Return null or a loading indicator while the client-side state is being set
   }
+
   return (
     <section>
       <div className="relative h-[100px] md:h-[200px] w-full flex justify-between">
@@ -74,11 +74,10 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
             className="absolute inset-0 cursor-pointer bg-minty hover:bg-noir text-noir hover:text-minty"
             style={{
               clipPath: 'polygon(0 0, 100% 0, 0 100%)',
-            }}
-          >
-            <p className="absolute top-1/3 right-1/3 left-1 nostalgic-text text-nowrap rotate-[315deg] z-10 text-[16px] md:text-[30px] font-extrabold pointer-events-none">
+            }}>
+            <p className="absolute text-center top-1/4 right-1/3 left-1 nostalgic-text text-nowrap rotate-[315deg] z-10 text-[16px] md:text-[30px] font-extrabold pointer-events-none">
               {naviText}
-            </p>
+          </p>
           </a>
         </div>
         {/* Right Navigation Button */}
@@ -89,9 +88,8 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
             className="absolute inset-0 cursor-pointer bg-minty hover:bg-noir text-noir hover:text-minty"
             style={{
               clipPath: 'polygon(100% 0, 0 0, 100% 100%)',
-            }}
-          >
-            <p className="absolute top-1/3 left-1/3 right-1 nostalgic-text text-nowrap rotate-[45deg] z-10 text-[16px] md:text-[30px] font-extrabold pointer-events-none">
+            }}>
+            <p className="absolute text-center top-1/4 left-1/3 right-1 nostalgic-text text-nowrap rotate-[45deg] z-10 text-[16px] md:text-[30px] font-extrabold pointer-events-none">
               {language}
             </p>
           </a>
@@ -100,5 +98,4 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
     </section>
   );
 };
-
 export default HeaderNAvi;

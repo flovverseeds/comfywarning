@@ -15,12 +15,17 @@
   },
   "dangerlever":
   {
-    "zero": "☆☆☆☆☆",
-    "one": "★☆☆☆☆" ,
-    "two": "★★☆☆☆" ,
+    "zero":  "☆☆☆☆☆",
+    "one":   "★☆☆☆☆" ,
+    "two":   "★★☆☆☆" ,
     "three": "★★★☆☆" ,
-    "four": "★★★★☆" ,
-    "five": "★★★★★"  
+    "four":  "★★★★☆" ,
+    "five":  "★★★★★"  
+  },
+  "monsterTags":{
+    "name": "Name:",
+    "define": "Traits:",
+    "dangerlever" : "DangerLevel:"
   },
   "monster":
   {

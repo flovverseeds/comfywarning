@@ -25,7 +25,9 @@ export default async function RootLayout({
       <body className="markerbysue-text">
       <div id="modal-root"></div>
        <HeaderNAvi navi={[dictionary["header"].navi[0], dictionary["header"].navi[1]]}  language= {dictionary["header"].language}></HeaderNAvi>
-        {children}   
+        <main className="flex-grow">
+        {children} 
+        </main>
         <Footer></Footer>
        </body>
     </html>

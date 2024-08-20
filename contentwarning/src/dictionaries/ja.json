@@ -23,6 +23,11 @@
     "four":  "★★★★☆" ,
     "five":  "★★★★★"  
   },
+  "monsterTags":{
+    "name": "呼び名:",
+    "define": "特徴:",
+    "dangerlever" : "危険度:"
+  },
   "monster":
   {
     "monster01":
