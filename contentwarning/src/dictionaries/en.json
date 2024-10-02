@@ -32,7 +32,97 @@
     "monster01":
     {
       "name": "Escargokun",
-      "define": "Escargokun is a snailman who loves to hug people !! he is born from SnailQueen !! he is slow and goofy 【Stunable】"
+      "define": "Escargokun is a snailman who loves to hug people !! he is born from SnailQueen !! he is slow and goofy 【Stun-prone】"
+    },
+    "monster02":
+    {
+      "name" :"Mixer",
+      "define" :"Mixer is the  best kitchen partner but It lethally rush headlong straight towards you 【Stun-prone】"
+    },
+    "monster03":
+    {
+      "name" :"Bomu",
+      "define" :"Just don't press it【Stun-prone】"
+    },
+    "monster04":
+    {
+      "name" :"Sniper",
+      "define" :"His Aim is better than mine Becareful for it's mega-ton punch !!!【Stun-prone】"
+    },
+    "monster05":
+    {
+      "name" :"Ghost",
+      "define" :"He becomes unfriendly when hungry still cute tho【Stun-prone】"
+    },
+    "monster06":
+    {
+      "name" :"Gorilla",
+      "define" :"I don't even know why I'm calling him gorilla but he is POWAAA (don't like banana)【Stun-immune】"
+    },
+    "monster07":
+    {
+      "name" :"Slime",
+      "define" :"the fastest slime you could ever seen!! very friendly non-lethal【Stun-prone】"
+    },
+    "monster08":
+    {
+      "name" :"ASMR granpa",
+      "define" :"very very good voice【Stun-prone】"
+    },
+    "monster09":
+    {
+      "name" :"Trap",
+      "define" :"if you got caught you need glasses (throw something to save your teammates)【Stun-immune】"
+    },
+    "monster10":
+    {
+      "name" :"Loofy",
+      "define" :"he's the one to be the first one to find one-piece【Stun-prone】"
+    },
+    "monster11":
+    {
+      "name" :"Bond Worm",
+      "define" :"high protein【Stun-prone】"
+    },
+    "monster12":
+    {
+      "name" :"Mr Frame",
+      "define" :"Don't Mind him his lagging【Stun-prone】"
+    },
+    "monster13":
+    {
+      "name" :"Bomber",
+      "define" :"don't be afraid!! go catch the bomb and throw it back!!【Stun-immune】"
+    },
+    "monster14":
+    {
+      "name" :"Fire",
+      "define" :"The flame is the soul’s breath The black smoke is the soul’s release Ashes thou wert and art May thy soul return to the great flame of fire Látom【Stun-immune】"
+    },
+    "monster15":
+    {
+      "name" :"Spider",
+      "define" :"do you still wanna be Spider-Man ?? yah sure let it munch you【Stun-prone】"
+    },
+    "monster16":
+    {
+      "name" :"Screamer",
+      "define" :"Direct Ear Attack!!! 【Stun-prone】"
+    },
+    "monster17":
+    {
+      "name" :"Ear",
+      "define" :"look at that amount of ears、、、 still don't know how to listen 【Stun-prone】"
+    },
+    "monster18":
+    {
+      "name" :"Maiden",
+      "define" :"just relax and type!!! what's worst thing can happen? (imagine playing alone)【Stun-immune】"
+    },
+    "monster19":
+    {
+      "name" :"Queen",
+      "define" :"Escargokun's mom Her value is priceless her laying is limitless【Stun-prone】"
     }
   }
 }

@@ -64,7 +64,6 @@ const [showModal, setShowModal] = useState(false);
       <FilmHolder videoLink={video01}></FilmHolder>
     </div>
     
-    
     </div>
     </MonsterModal>
     }
