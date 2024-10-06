@@ -121,8 +121,48 @@
     },
     "monster19":
     {
+      "name" :"Mushroom",
+      "define" :"Just don't touch it Just don't (you will be count as dead)【Stun-prone】"
+    },
+    "monster20":
+    {
+      "name" :"Shadow",
+      "define" :"beware of the shadow it's always been us【Stun-prone】"
+    },
+    "monster21":
+    {
       "name" :"Queen",
-      "define" :"Escargokun's mom Her value is priceless her laying is limitless【Stun-prone】"
+      "define" :"bow to your queen!! make birth to Escargokun【Stun-prone】"
+    },
+    "monster22":
+    {
+      "name" :"Streamer",
+      "define" :"Collab when you can!! more views more views【Stun-prone】"
+    },
+    "monster23":
+    {
+      "name" :"Eye",
+      "define" :"It goes crazy when you hits up the light!! very shy don't do eye-contact【Stun-prone】"
+    },
+    "monster24":
+    {
+      "name" :"Dog-3000",
+      "define" :"This Dawg is made by VegaPunk【Stun-prone】"
+    },
+    "monster25":
+    {
+      "name" :"Drone-740",
+      "define" :"have a very slow movespeed. if it gets too near it will start countdown- when it reach to zero it will produce Black-Hole 【Stun-immune】"
+    },
+    "monster26":
+    {
+      "name" :"Bey-blade",
+      "define" :"it Spins、it Rolls it Chase、it Destroys!!【Stun-prone】"
+    },
+    "monster27":
+    {
+      "name" :"Giant",
+      "define" :"It's just too powerful, run if you can !! > <)// if.. you can【Stun-immune】"
     }
   }
 }

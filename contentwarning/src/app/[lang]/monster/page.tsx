@@ -204,6 +204,97 @@ export default async function Home({
       <Monster staticName={dictionary["monsterTags"].name}
       staticTraits={dictionary["monsterTags"].define} 
       staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster19Icon" 
+      monsterName={dictionary["monster"].monster19.name}
+      define={dictionary["monster"].monster19.define}
+      dangerLevel={dictionary["dangerlever"].one}
+      video01="https://va.media.tumblr.com/tumblr_skx42qwp7m1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster20Icon" 
+      monsterName={dictionary["monster"].monster20.name}
+      define={dictionary["monster"].monster20.define}
+      dangerLevel={dictionary["dangerlever"].three}
+      video01="https://va.media.tumblr.com/tumblr_skx4acEcNE1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster21Icon" 
+      monsterName={dictionary["monster"].monster21.name}
+      define={dictionary["monster"].monster21.define}
+      dangerLevel={dictionary["dangerlever"].three}
+      video01="https://va.media.tumblr.com/tumblr_skx4wojlZZ1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster22Icon" 
+      monsterName={dictionary["monster"].monster22.name}
+      define={dictionary["monster"].monster22.define}
+      dangerLevel={dictionary["dangerlever"].four}
+      video01="https://va.media.tumblr.com/tumblr_skx4j34uap1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster23Icon" 
+      monsterName={dictionary["monster"].monster23.name}
+      define={dictionary["monster"].monster23.define}
+      dangerLevel={dictionary["dangerlever"].two}
+      video01="https://va.media.tumblr.com/tumblr_skx54vSN1g1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster24Icon" 
+      monsterName={dictionary["monster"].monster24.name}
+      define={dictionary["monster"].monster24.define}
+      dangerLevel={dictionary["dangerlever"].two}
+      video01="https://va.media.tumblr.com/tumblr_skx5lz6pno1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster25Icon" 
+      monsterName={dictionary["monster"].monster25.name}
+      define={dictionary["monster"].monster25.define}
+      dangerLevel={dictionary["dangerlever"].four}
+      video01="https://va.media.tumblr.com/tumblr_skx61lA1aF1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster26Icon" 
+      monsterName={dictionary["monster"].monster26.name}
+      define={dictionary["monster"].monster26.define}
+      dangerLevel={dictionary["dangerlever"].five}
+      video01="https://va.media.tumblr.com/tumblr_skx5wdMc4W1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster27Icon" 
+      monsterName={dictionary["monster"].monster27.name}
+      define={dictionary["monster"].monster27.define}
+      dangerLevel={dictionary["dangerlever"].five}
+      video01="https://va.media.tumblr.com/tumblr_skx65qOQKb1aywsje_720.mp4"
+      />
+
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
       icon="bg-monster00Icon" 
       monsterName="xxxx"
       define="xxx"
