@@ -163,6 +163,11 @@
     {
       "name" :"Giant",
       "define" :"It's just too powerful, run if you can !! > <)// if.. you can【Stun-immune】"
+    },
+    "monster28":
+    {
+      "name" :"Flicker",
+      "define" :"3, 2, 1 say cheeze ( death is waiting ) 【Stun-immune】"
     }
   }
 }

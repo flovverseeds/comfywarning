@@ -40,7 +40,7 @@ const config: Config = {
         "monster25Icon": "url(https://64.media.tumblr.com/edf3c0ad981ca6db66a4e605c22de5e2/c2fbc9125a54cbb1-46/s1280x1920/06b4e6897ec61e0289a629b6be93d6549a947d99.pnj)",
         "monster26Icon": "url(https://64.media.tumblr.com/a7ffef93a963c971532bd018ffa818cc/5dd10a0158dac0df-5d/s1280x1920/7445d06d93d04def4fa9a42a36ce17db06f129a0.pnj)",
         "monster27Icon": "url(https://64.media.tumblr.com/728936db9a094c1f360e7a3bc8cf9140/a24de02ea5494c02-2a/s1280x1920/80bdb4eb6f70a24ab3b77e42f8523a45c3d4bc68.pnj)",
-        "monster28Icon": "url()",
+        "monster28Icon": "url(https://64.media.tumblr.com/cb79931d6dd72efa033e0726c41ed75a/c435e2ee5bcac02c-35/s250x400/cee44c228adb1aca3f03464bd57d479b08b3b245.pnj)",
         "monster29Icon": "url()",
         "monster30Icon": "url()",
         "monster31Icon": "url()",

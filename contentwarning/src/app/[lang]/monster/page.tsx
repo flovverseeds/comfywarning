@@ -291,6 +291,25 @@ export default async function Home({
       video01="https://va.media.tumblr.com/tumblr_skx65qOQKb1aywsje_720.mp4"
       />
 
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster28Icon" 
+      monsterName={dictionary["monster"].monster28.name}
+      define={dictionary["monster"].monster28.define}
+      dangerLevel={dictionary["dangerlever"].five}
+      video01="https://va.media.tumblr.com/tumblr_skx65qOQKb1aywsje_720.mp4"
+      />
+
+      <Monster staticName={dictionary["monsterTags"].name}
+      staticTraits={dictionary["monsterTags"].define} 
+      staticDangerLevel={dictionary["monsterTags"].dangerlever} 
+      icon="bg-monster28Icon"
+      monsterName={dictionary["monster"].monster28.name}
+      define={dictionary["monster"].monster28.define}
+      dangerLevel={dictionary["dangerlever"].five}
+      video01="https://va.media.tumblr.com/tumblr_snq0vqA1fG1aywsje_720.mp4"
+      />
 
       <Monster staticName={dictionary["monsterTags"].name}
       staticTraits={dictionary["monsterTags"].define} 
@@ -302,8 +321,8 @@ export default async function Home({
       video01=""
       />
       
-  </section>
-  </main>
+    </section>
+    </main>
     </>
   );
 }
