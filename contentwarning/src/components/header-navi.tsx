@@ -77,7 +77,7 @@ const HeaderNAvi = ({ navi, language }: HeaderProps) => {
             }}>
             <p className="absolute text-center top-1/4 right-1/3 left-1 nostalgic-text text-nowrap rotate-[315deg] z-10 text-[16px] md:text-[30px] font-extrabold pointer-events-none">
               {naviText}
-          </p>
+            </p>
           </a>
         </div>
         {/* Right Navigation Button */}

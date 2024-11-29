@@ -27,7 +27,5 @@ export default FilmHolder;
   holder 450
 */
 
-
-
 // for not Found
 //https://va.media.tumblr.com/tumblr_sihoo3nsxu1aywsje_720.mp4
